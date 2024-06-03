@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nuestro_productos",
+  "info": {
+    "singularName": "nuestro-producto",
+    "pluralName": "nuestro-productos",
+    "displayName": "nuestroProducto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "imagen_bajo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imagen_derecha": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

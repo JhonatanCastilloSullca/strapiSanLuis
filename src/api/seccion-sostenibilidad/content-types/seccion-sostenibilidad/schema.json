@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seccion_sostenibilidads",
+  "info": {
+    "singularName": "seccion-sostenibilidad",
+    "pluralName": "seccion-sostenibilidads",
+    "displayName": "seccionSostenibilidad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "icono1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "icono2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "icono3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "titulo1": {
+      "type": "text",
+      "required": true
+    },
+    "titulo3": {
+      "type": "string",
+      "required": true
+    },
+    "titulo2": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion1": {
+      "type": "text"
+    },
+    "descripcion2": {
+      "type": "text"
+    },
+    "descripcion3": {
+      "type": "text"
+    }
+  }
+}

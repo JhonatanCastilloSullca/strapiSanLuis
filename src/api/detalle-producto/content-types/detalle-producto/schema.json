@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalle_productos",
+  "info": {
+    "singularName": "detalle-producto",
+    "pluralName": "detalle-productos",
+    "displayName": "detalleProducto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "string"
+    },
+    "producto": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::producto.producto",
+      "inversedBy": "detalle_productos"
+    }
+  }
+}
